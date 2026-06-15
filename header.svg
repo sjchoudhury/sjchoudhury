@@ -1,0 +1,53 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap');
+      .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="#0d1117" rx="12"/>
+
+  <!-- Grid lines subtle -->
+  <line x1="0" y1="70" x2="900" y2="70" stroke="#1D9E75" stroke-width="0.3" opacity="0.3"/>
+  <line x1="0" y1="210" x2="900" y2="210" stroke="#1D9E75" stroke-width="0.3" opacity="0.3"/>
+  <line x1="160" y1="0" x2="160" y2="280" stroke="#1D9E75" stroke-width="0.3" opacity="0.3"/>
+  <line x1="740" y1="0" x2="740" y2="280" stroke="#1D9E75" stroke-width="0.3" opacity="0.3"/>
+
+  <!-- Corner accents -->
+  <polyline points="20,50 20,20 50,20" fill="none" stroke="#1D9E75" stroke-width="2"/>
+  <polyline points="850,50 850,20 820,20" fill="none" stroke="#1D9E75" stroke-width="2"/>
+  <polyline points="20,230 20,260 50,260" fill="none" stroke="#1D9E75" stroke-width="2"/>
+  <polyline points="850,230 850,260 820,260" fill="none" stroke="#1D9E75" stroke-width="2"/>
+
+  <!-- Decorative left dots -->
+  <circle cx="40" cy="140" r="2" fill="#1D9E75" opacity="0.6"/>
+  <circle cx="40" cy="155" r="2" fill="#1D9E75" opacity="0.4"/>
+  <circle cx="40" cy="170" r="2" fill="#1D9E75" opacity="0.2"/>
+
+  <!-- Decorative right dots -->
+  <circle cx="860" cy="140" r="2" fill="#378ADD" opacity="0.6"/>
+  <circle cx="860" cy="155" r="2" fill="#378ADD" opacity="0.4"/>
+  <circle cx="860" cy="170" r="2" fill="#378ADD" opacity="0.2"/>
+
+  <!-- Top label -->
+  <text x="450" y="45" class="mono" font-size="10" fill="#1D9E75" text-anchor="middle" letter-spacing="6" opacity="0.8">FINANCE · PYTHON · FINTECH</text>
+
+  <!-- Main Name Line 1 -->
+  <text x="450" y="130" class="mono" font-size="58" font-weight="800" fill="#e6edf3" text-anchor="middle" letter-spacing="-1">S.Jagatpathi</text>
+
+  <!-- Main Name Line 2 - accent color -->
+  <text x="450" y="185" class="mono" font-size="58" font-weight="800" fill="#1D9E75" text-anchor="middle" letter-spacing="-1">Choudhury</text>
+
+  <!-- Underline accent -->
+  <rect x="280" y="194" width="340" height="2" fill="#1D9E75" opacity="0.5" rx="1"/>
+
+  <!-- Bottom tagline -->
+  <text x="450" y="238" class="mono" font-size="12" fill="#8b949e" text-anchor="middle" letter-spacing="3">Finance Executive  ·  FinRecon Builder  ·  Bhubaneswar 🇮🇳</text>
+
+  <!-- Status pill -->
+  <rect x="350" y="250" width="200" height="22" rx="11" fill="#04342C" stroke="#1D9E75" stroke-width="1"/>
+  <circle cx="368" cy="261" r="4" fill="#1D9E75"/>
+  <text x="450" y="265" class="mono" font-size="10" fill="#5DCAA5" text-anchor="middle" letter-spacing="2" font-weight="700">OPEN TO WORK</text>
+</svg>
